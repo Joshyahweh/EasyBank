@@ -291,6 +291,9 @@ footer {
   color: #fafafa;
   cursor: pointer;
 }
+.terms-conditions-link:hover{
+  color: hsl(136, 65%, 51%);
+}
 .footer__btn {
   position: relative;
   top: 15px;
