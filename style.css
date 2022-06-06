@@ -290,6 +290,7 @@ footer {
   left: 100px;
   color: #fafafa;
   cursor: pointer;
+  transition: 0.5s
 }
 .terms-conditions-link:hover{
   color: hsl(136, 65%, 51%);
