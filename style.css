@@ -10,9 +10,10 @@ body {
   content: #444;
   line-height: 1.9;
   background-color: #fafafa;
-  background: url(images/bg-intro-desktop.svg) no-repeat;
-  background-size: 70%;
-  background-position: 130.7% -150px;
+  background: url(images/image-mockups.png) no-repeat,
+    url(images/bg-intro-desktop.svg) no-repeat;
+  background-size: 50%, 70%;
+  background-position: 118% -109px, 130.7% -150px;
 }
 
 .nav {
@@ -73,7 +74,7 @@ body {
   background: linear-gradient(0.25turn, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
   transition: 0.5s;
 }
-.nav__button:hover{
+.nav__button:hover {
   opacity: 0.5;
 }
 
